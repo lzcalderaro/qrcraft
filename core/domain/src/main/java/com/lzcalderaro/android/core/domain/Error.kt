@@ -1,4 +1,3 @@
 package com.lzcalderaro.android.core.domain
 
-class MyClass {
-}
+interface Error
