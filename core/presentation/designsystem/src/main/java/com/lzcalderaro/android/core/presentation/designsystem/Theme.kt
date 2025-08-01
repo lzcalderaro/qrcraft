@@ -1,4 +1,4 @@
-package com.lzcalderaro.android.qrcraft.ui.theme
+package com.lzcalderaro.android.core.presentation.designsystem
 
 import android.app.Activity
 import android.os.Build

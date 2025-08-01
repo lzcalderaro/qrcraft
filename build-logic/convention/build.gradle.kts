@@ -22,5 +22,25 @@ gradlePlugin {
             id = "lzcalderaro.android.application.compose"
             implementationClass = "AndroidApplicationComposeConventionPlugin"
         }
+
+        register("jvmLibrary") {
+            id = "lzcalderaro.jvm.library"
+            implementationClass = "JvmLibraryConventionPlugin"
+        }
+
+        register("androidLibrary") {
+            id = "lzcalderaro.android.library"
+            implementationClass = "AndroidLibraryConventionPlugin"
+        }
+
+        register("androidLibraryCompose") {
+            id = "lzcalderaro.android.library.compose"
+            implementationClass = "AndroidLibraryComposeConventionPlugin"
+        }
+
+        register("androidFeatureUi") {
+            id = "lzcalderaro.android.feature.ui"
+            implementationClass = "AndroidFeatureUiConventionPlugin"
+        }
     }
 }

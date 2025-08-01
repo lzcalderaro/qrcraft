@@ -12,7 +12,8 @@ appcompat = "1.7.1"
 material = "1.12.0"
 androidTools = "31.12.0"
 ksp = "2.0.0-1.0.22"
-desugarJdkLibs = "2.0.4"
+desugarJdkLibs = "2.1.5"
+coroutines = "1.10.2"
 
 # Project versions
 projectApplicationId = "com.lzcalderaro.android.qrcraft"
@@ -21,6 +22,7 @@ projectMinSdkVersion = "32"
 projectTargetSdkVersion = "36"
 projectCompileSdkVersion = "36"
 projectVersionCode = "1"
+jetbrainsKotlinJvm = "2.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -38,6 +40,8 @@ androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-man
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "coroutines"}
+
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 
 desugar-jdk-libs = { module = "com.android.tools:desugar_jdk_libs", version.ref = "desugarJdkLibs" }
@@ -55,3 +59,9 @@ android-library = { id = "com.android.library", version.ref = "agp" }
 
 lzcalderaro-android-application = { id = "lzcalderaro.android.application", version = "unspecified" }
 lzcalderaro-android-application-compose = { id = "lzcalderaro.android.application.compose", version = "unspecified" }
+lzcalderaro-jvm-library = { id = "lzcalderaro.jvm.library", version = "unspecified" }
+lzcalderaro-android-library = { id = "lzcalderaro.android.library", version = "unspecified" }
+lzcalderaro-android-feature-ui = { id = "lzcalderaro.android.feature.ui", version = "unspecified" }
+lzcalderaro-android-library-compose = { id = "lzcalderaro.android.library.compose", version = "unspecified" }
+
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }

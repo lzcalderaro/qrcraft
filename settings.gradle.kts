@@ -23,3 +23,7 @@ dependencyResolutionManagement {
 rootProject.name = "QR-Craft"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
+include(":core:domain")
+include(":core:data")
+include(":core:presentation:ui")
+include(":core:presentation:designsystem")
