@@ -1,4 +1,5 @@
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google {
             content {
@@ -19,5 +20,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "QR Craft"
+rootProject.name = "QR-Craft"
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 include(":app")
